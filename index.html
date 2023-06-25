@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Trend Cycle</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Welcome to Trend Cycle, where we are dedicated to shaping fashion trends with purpose. Explore our diverse collection crafted by top designers. From clothing to accessories, everything is meticulously handsewn in-house to deliver high fashion designs. Join our inclusive community and be part of our commitment to making a positive impact on the environment. Embrace style and responsibility at Trend Cycles today.
+
+Keywords: Trend Cycle, fashion trends, purpose, diverse collection, top designers, clothing, accessories, in-house, hand-sewn, high fashion designs, inclusive community, positive impact, environment, style, responsibility."
+    />
+    <meta
+      name="keywords"
+      content="Trend Cycles,Fashion brand,Latest trends,Positive impact,Environment,Diversity,Inclusivity,Teamwork,Online experience,Patchwork clothing,Accessories,E-commerce website,Clothing donation,Collaborative social platform,Empowerment, Future designs,Vibrant fashion community,Style,Purpose,Responsibility,Movement,Redefining fashion."
+    />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="TClogoblue.png" alt="TC logo" /></a>
+      <!-- Your website header content goes here -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Shop</a></li>
+          <li><a href="donation.html">Donation</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="#"
+              ><img
+                id="show-list-btn"
+                src="cartblack.png"
+                alt="shoppingcart"
+                width="40"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <dialog id="popup">
+        <h2>Your Cart is Empty</h2>
+        <p id="content">TC members get 20% off sign up <a href="#page1">HERE</a>!</p>
+        <h4 id="subtotal">Subtotal: $0.00</h4>
+        <h5>Tax Rate: 5.3%</h5>
+        <h5>Shipping: $1.00</h5>
+        <h4 id="total">Total: $0.00</h4>
+        <div id="button-container"> 
+          <button id="checkout" onclick="document.getElementById('popup').close()">
+          Checkout
+        </button>
+          <button onclick="document.getElementById('popup').close()">
+            Close
+          </button>
+        </div>
+      </dialog>
+      <dialog id ="popup2">
+        <p>Thanks for your order!</p>
+         <button onclick="document.getElementById('popup2').close()">
+            Close
+          </button>
+      </dialog>
+
+      <div class="container">
+        <div class="image-wrapper">
+          <img src="utopia-by-cho-SbfmmStJVeg-unsplash.jpg" alt="Image 1" />
+        </div>
+        <div class="image-wrapper">
+          <img src="closet.jpeg" alt="Image 2" />
+        </div>
+        <div class="image-wrapper">
+          <img src="item15.jpeg" alt="Image 3" />
+        </div>
+      </div>
+      <!-- carousel -->
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="item">
+            <button class="add-to-cart">
+              <img src="addButton.png" alt="shoppingcart" />
+            </button>
+            <img src="item12.png" alt="Photo 1" />
+            <h5 class="s">Project Bliss</h5>
+            <p class="s">Cotton based</p>
+            <img src="starrating.png" alt="starrating" class="starrate" />
+            <p class="price">$50</p>
+          </div>
+          <div class="item">
+            <button class="add-to-cart">
+              <img src="addButton.png" alt="shoppingcart" />
+            </button>
+            <img src="item21.png" alt="Photo 2" />
+            <h5 class="s">Safari Patch</h5>
+            <p class="s">Cargo based</p>
+            <img src="starrating.png" alt="starrating" class="starrate" />
+            <p class="price">$35</p>
+          </div>
+          <div class="item">
+            <button class="add-to-cart">
+              <img src="addButton.png" alt="shoppingcart" />
+            </button>
+            <img src="item4.png" alt="Photo 3" />
+            <h5 class="s">Quilt Bottom</h5>
+            <p class="s">Multiple Fabrics</p>
+            <img src="starrating.png" alt="starrating" class="starrate" />
+            <p class="price">$55</p>
+          </div>
+          <div class="item">
+            <button class="add-to-cart">
+              <img src="addButton.png" alt="shoppingcart" />
+            </button>
+            <img src="item17.png" alt="Photo 4" />
+            <h5 class="s">The Puff Bag</h5>
+            <p class="s">Multiple Fabrics</p>
+            <img src="starrating.png" alt="starrating" class="starrate" />
+            <p class="price">$30</p>
+          </div>
+        </div>
+      </div>
+      <!-- three images -->
+      <div class="image-container">
+        <img src="item2.jpeg" alt="Rectangle Image" class="image rectangle" />
+        <img src="item13.jpeg" alt="Circle Image" class="image circle" />
+        <img
+          src="item3.jpeg"
+          alt="Small Rectangle Image"
+          class="image small-rectangle"
+        />
+      </div>
+      <!-- three images -->
+
+      <!-- shop section -->
+
+      <div class="grid-container">
+        <!-- First Section -->
+        <div class="grid-item">
+          <div class="sub-grid">
+            <div class="sub-grid-item">
+              <button class="add-to-cart">
+                <img src="addButton.png" alt="shoppingcart" />
+              </button>
+              <img src="item10dub.png" alt="Patchwork jacket" />
+              <h5>The Sally</h5>
+              <p>Made from multiple fabrics</p>
+              <img src="starrating.png" alt="starrating" class="starrate" />
+              <p class="price">$15</p>
+            </div>
+            <div class="sub-grid-item">
+              <button class="add-to-cart">
+                <img src="addButton.png" alt="shoppingcart" />
+              </button>
+              <img src="item22.png" alt="patchwork purse" />
+
+              <h5>Baby doll</h5>
+              <p>Made from multiple fabrics</p>
+              <img src="starrating.png" alt="starrating" class="starrate" />
+              <p class="price">$5</p>
+            </div>
+            <div class="sub-grid-item">
+              <button class="add-to-cart">
+                <img src="addButton.png" alt="shoppingcart" />
+              </button>
+              <img src="item23.png" alt="patchwork heavy coat" />
+              <h5>Working Up</h5>
+              <p>Made of thick heavy materials</p>
+              <img src="starrating.png" alt="starrating" class="starrate" />
+              <p class="price">$40</p>
+            </div>
+            <div class="sub-grid-item">
+              <button class="add-to-cart">
+                <img src="addButton.png" alt="shoppingcart" />
+              </button>
+              <img src="item24.png" alt="patchwork denim shirt" />
+              <h5>Better Denim</h5>
+              <p>Made of only deniem materials</p>
+              <img src="starrating.png" alt="starrating" class="starrate" />
+              <p class="price">$12</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Section -->
+        <div class="grid-item">
+          <button class="add-to-cart">
+            <img class="lg-img" src="addButton.png" alt="shoppingcart" />
+          </button>
+          <img src="item25.png" alt="Patchwork denim" />
+          <h5>Everyday All day</h5>
+          <p>Made from multiple fabrics</p>
+          <img src="starrating.png" alt="starrating" class="starrate2" />
+          <p class="price">$15</p>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <!--Third Section -->
+        <div class="grid-item">
+          <button class="add-to-cart">
+            <img class="lg-img" src="addButton.png" alt="shoppingcart" />
+          </button>
+          <img src="item26.png" alt="Patchwork Deniem mini skirt" />
+          <h5>The Micro</h5>
+          <p>Mini skirt made of denim materials</p>
+          <img src="starrating.png" alt="starrating" class="starrate2" />
+          <p class="price">$15</p>
+        </div>
+        <!-- Fourth Section -->
+        <div class="grid-item">
+          <div class="sub-grid">
+            <div class="sub-grid-item">
+              <button class="add-to-cart">
+                <img src="addButton.png" alt="shoppingcart" />
+              </button>
+              <img src="item27.png" alt="Patchwork vest" />
+
+              <h5>Pacific</h5>
+              <p>Puffer vest made from multiple materials</p>
+              <img src="starrating.png" alt="starrating" class="starrate" />
+              <p class="price">$30</p>
+            </div>
+            <div class="sub-grid-item">
+              <button class="add-to-cart">
+                <img src="addButton.png" alt="shoppingcart" />
+              </button>
+              <img src="item28.png" alt="Patchwork button up shirt" />
+              <h5>Easy Breezy Tee</h5>
+              <p>Button up shirt made from multiple materials</p>
+              <img src="starrating.png" alt="starrating" class="starrate" />
+              <p class="price">$15</p>
+            </div>
+            <div class="sub-grid-item">
+              <button class="add-to-cart">
+                <img src="addButton.png" alt="shoppingcart" />
+              </button>
+              <img src="item30.png" alt="Shaket patchwork jacket" />
+
+              <h5>Ted</h5>
+              <p>Button up shaket made of multiple matrials</p>
+              <img src="starrating.png" alt="starrating" class="starrate" />
+              <p class="price">$25</p>
+            </div>
+            <div class="sub-grid-item">
+              <button class="add-to-cart">
+                <img src="addButton.png" alt="shoppingcart" />
+              </button>
+              <img
+                src="item29.png"
+                alt="Denim patchwork jeans with star design"
+              />
+              <h5>The Dolly</h5>
+              <p>Patchwork demin pants with Star pattern</p>
+              <img src="starrating.png" alt="starrating" class="starrate" />
+              <p class="price">$80</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- shop section -->
+
+      <!-- content photos/text -->
+      <div class="grid-container2">
+        <div class="item1">
+          <img src="item5.jpeg" alt="Image 1" width="300" height="400" />
+        </div>
+        <div class="item2">
+          <h4>
+            <span class="fontchange2">SHOP</span> top
+            <span class="fontchange">TRENDS</span>
+          </h4>
+          <p>
+            We strive to make a positive impact on the environment and celebrate
+            diversity while promoting inclusivity.
+          </p>
+
+          <p>
+            We believe that our brand owes its existence to our incredible
+            community.
+          </p>
+        </div>
+        <div class="item3">
+          <h4>
+            <span class="fontchange2">CREATE</span> the<br /><span
+              class="fontchange"
+              >FUTURE</span
+            >
+          </h4>
+          <p>
+            We offer an online clothing donation feature, allowing you to give
+            back and make a difference with every purchase.
+          </p>
+
+          <p>
+            <span class="fontchange">Your voice matters to us</span>, and we
+            want you to be an integral part of creating the next great fashion
+            design!
+          </p>
+        </div>
+        <div class="item4">
+          <img
+            src="item16.jpeg"
+            alt="Three models wearing patchwork clothes"
+            width="300"
+            height="400"
+          />
+        </div>
+      </div>
+
+      <!-- Collage of images -->
+      <div class="collage-container">
+        <img
+          src="pexels-daniel-adesina-15951991.jpg"
+          alt="Image 1"
+          class="photo-1"
+        />
+        <img
+          src="pexels-megan-ruth-12610340.jpg"
+          alt="Image 2"
+          class="photo-2"
+        />
+        <img
+          src="utopia-by-cho-jH4ZeNWAlnI-unsplash.jpg"
+          alt="Image 3"
+          class="photo-3"
+        />
+        <img src="item8.jpeg" alt="Image 4" class="photo-4" />
+        <img src="item7.jpeg" alt="Image 5" class="photo-5" />
+        <img
+          src="utopia-by-cho-LRqBE1z5kfE-unsplash.jpg"
+          alt="Image 6"
+          class="photo-6"
+        />
+      </div>
+    </main>
+
+    <footer id="page1">
+      <div class="footercontent">
+        <div class="footertitle">
+          <h2>Contact Us</h2>
+          <img src="fb.png" alt="Facebook button link and icon" />
+          <img src="insta.png" alt="Instagram button link and icon" />
+          <img src="email.png" alt="Email button link and icon" />
+        </div>
+
+        <div class="footerlinks1">
+          <a href="faq.com">FAQ</a>
+          <a href="returns.com">Returns</a>
+          <a href="donation.html">Donations</a>
+          <a href="sizechart.com">Size Chart</a>
+          <a href="Souces.WorkCited.pdf">Sources for Images</a>
+        </div>
+
+        <div class="footerlinks2">
+          <h3>Become a Trend Member</h3>
+          <p>GET 20% OFF TODAY</p>
+          <p class="footerp">
+            Copyright &copy; 2023 | Developed by Annalise Wheeler<br />This is
+            for Education purposes only
+          </p>
+          <form>
+            <input type="email" name="email" placeholder="Enter your email" />
+            <input type="submit" value="Start Trending" />
+          </form>
+        </div>
+
+        <div class="footerlinks3">
+          <a href="about.html">About</a>
+          <a href="contact.com">Contact</a>
+          <a href="affiliaeprogram.com">Shipping</a>
+          <a href="termsofservice.com">Size Chart</a>
+          <a href="privacypoliciy.com">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
